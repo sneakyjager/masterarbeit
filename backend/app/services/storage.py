@@ -1,3 +1,5 @@
+"""Local file storage for uploaded assets."""
+
 from pathlib import Path
 from fastapi import UploadFile
 
@@ -5,6 +7,7 @@ UPLOAD_ROOT = Path("storage/uploads")
 
 
 async def save_uploads(job_id: str, person_image: UploadFile, clothing_image: UploadFile) -> None:
+    # Each job gets its own folder for easy inspection.
     job_dir = UPLOAD_ROOT / job_id
     job_dir.mkdir(parents=True, exist_ok=True)
 
@@ -14,5 +17,6 @@ async def save_uploads(job_id: str, person_image: UploadFile, clothing_image: Up
 
 async def _save_file(path: Path, upload: UploadFile) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
+    # Read once and write to disk for the MVP.
     contents = await upload.read()
     path.write_bytes(contents)

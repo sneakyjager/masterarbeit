@@ -4,6 +4,7 @@ type UploadFieldProps = {
   onChange: (file: File | null) => void;
 };
 
+// Reusable file input with label and helper text.
 export default function UploadField({ label, description, onChange }: UploadFieldProps) {
   return (
     <div className="grid gap-2">

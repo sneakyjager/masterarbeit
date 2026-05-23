@@ -10,6 +10,7 @@ type SelectFieldProps = {
   onChange: (value: string) => void;
 };
 
+// Reusable select dropdown for style choices.
 export default function SelectField({ label, value, options, onChange }: SelectFieldProps) {
   return (
     <div className="grid gap-2">

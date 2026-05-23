@@ -1,0 +1,10 @@
+<svg width="900" height="1200" viewBox="0 0 900 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="1200" rx="36" fill="#0B0D10"/>
+  <rect x="80" y="80" width="740" height="1040" rx="28" fill="#151923" stroke="#2A2F3A" stroke-width="2"/>
+  <circle cx="450" cy="420" r="140" fill="#76E4C1" fill-opacity="0.2"/>
+  <path d="M340 420C340 358 390 308 450 308C510 308 560 358 560 420C560 482 510 532 450 532C390 532 340 482 340 420Z" fill="#76E4C1" fill-opacity="0.35"/>
+  <rect x="300" y="560" width="300" height="360" rx="150" fill="#9EF2D9" fill-opacity="0.2"/>
+  <path d="M270 820C330 740 390 700 450 700C510 700 570 740 630 820" stroke="#FFB86B" stroke-width="6" stroke-linecap="round"/>
+  <text x="450" y="220" text-anchor="middle" font-family="Space Grotesk, Arial" font-size="28" fill="#C8D0DA">Mock Output</text>
+  <text x="450" y="980" text-anchor="middle" font-family="Space Grotesk, Arial" font-size="18" fill="#C8D0DA" opacity="0.7">AI pipeline placeholder</text>
+</svg>

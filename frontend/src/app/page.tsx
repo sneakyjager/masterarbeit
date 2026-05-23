@@ -1,11 +1,12 @@
 "use client";
 
-import { useMemo, useState } from "react";
+// Main UI for uploading assets and calling the mock generation endpoint.
+import { useEffect, useMemo, useState } from "react";
 import UploadField from "../components/UploadField";
 import SelectField from "../components/SelectField";
 import GeneratedPreview from "../components/GeneratedPreview";
-import { generateImage } from "../services/api";
-import type { GenerateResponse } from "../types";
+import { generateImage, getJobStatus } from "../services/api";
+import type { GenerateResponse, JobStatusResponse } from "../types";
 
 const STYLE_OPTIONS = [
   { value: "editorial", label: "Editorial Minimal" },
@@ -21,6 +22,7 @@ export default function HomePage() {
   const [style, setStyle] = useState(STYLE_OPTIONS[0]?.value ?? "editorial");
   const [isLoading, setIsLoading] = useState(false);
   const [result, setResult] = useState<GenerateResponse | null>(null);
+  const [jobStatus, setJobStatus] = useState<JobStatusResponse | null>(null);
   const [error, setError] = useState<string | null>(null);
 
   const canGenerate = useMemo(() => {
@@ -28,6 +30,7 @@ export default function HomePage() {
   }, [personImage, clothingImage, prompt]);
 
   const handleGenerate = async () => {
+    // Guard against missing files before hitting the API.
     if (!personImage || !clothingImage) {
       setError("Please upload both images.");
       return;
@@ -37,6 +40,7 @@ export default function HomePage() {
     setError(null);
 
     try {
+      // Send multipart payload to the FastAPI backend.
       const response = await generateImage({
         personImage,
         clothingImage,
@@ -44,12 +48,51 @@ export default function HomePage() {
         style,
       });
       setResult(response);
+      setJobStatus({
+        job_id: response.job_id,
+        status: response.status,
+        job_type: "generate",
+        image_url: response.image_url,
+      });
     } catch (err) {
       setError(err instanceof Error ? err.message : "Something went wrong.");
     } finally {
       setIsLoading(false);
     }
   };
+
+  useEffect(() => {
+    if (!result?.job_id) {
+      return;
+    }
+
+    let isActive = true;
+
+    const pollStatus = async () => {
+      try {
+        const status = await getJobStatus(result.job_id);
+        if (!isActive) {
+          return;
+        }
+        setJobStatus(status);
+        if (status.status === "completed" || status.status === "failed" || status.status === "not_found") {
+          isActive = false;
+        }
+      } catch {
+        if (isActive) {
+          setJobStatus((prev) => prev ?? null);
+        }
+      }
+    };
+
+    const intervalId = setInterval(pollStatus, 2000);
+    pollStatus();
+
+    return () => {
+      isActive = false;
+      clearInterval(intervalId);
+    };
+  }, [result?.job_id]);
 
   return (
     <main className="min-h-screen px-6 py-10">
@@ -113,7 +156,7 @@ export default function HomePage() {
             imageUrl={result ? `http://localhost:8000${result.image_url}` : undefined}
             isLoading={isLoading}
             jobId={result?.job_id}
-            status={result?.status}
+            status={jobStatus?.status ?? result?.status}
           />
         </section>
       </div>

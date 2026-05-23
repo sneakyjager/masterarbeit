@@ -5,6 +5,7 @@ type GeneratedPreviewProps = {
   status?: string;
 };
 
+// Output panel that shows loading, mock image, and job metadata.
 export default function GeneratedPreview({
   imageUrl,
   isLoading,

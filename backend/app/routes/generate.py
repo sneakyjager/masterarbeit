@@ -1,9 +1,11 @@
+"""Generate endpoint for mock fashion images."""
+
 import asyncio
-import uuid
 from fastapi import APIRouter, File, Form, UploadFile
 
 from app.schemas.generate import GenerateResponse
 from app.services.mock_generation import build_mock_response
+from app.services.job_store import create_job, update_job
 from app.services.storage import save_uploads
 
 router = APIRouter()
@@ -16,8 +18,11 @@ async def generate_image(
     prompt: str = Form(...),
     style: str = Form(...),
 ) -> GenerateResponse:
-    job_id = str(uuid.uuid4())
-    await save_uploads(job_id, person_image, clothing_image)
+    # Track each request by a job id and persist uploads to disk.
+    record = create_job(job_type="generate", status="processing")
+    await save_uploads(record.job_id, person_image, clothing_image)
 
+    # Simulate model latency for UI loading states.
     await asyncio.sleep(1.2)
-    return build_mock_response(job_id=job_id)
+    update_job(record.job_id, status="completed", image_url="/static/mock-output.svg")
+    return build_mock_response(job_id=record.job_id)

@@ -29,6 +29,7 @@ const __TURBOPACK__default__export__ = fontData;
 "[project]/src/app/layout.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+// Global layout configuration and typography.
 __turbopack_context__.s([
     "default",
     ()=>RootLayout,
@@ -53,12 +54,12 @@ function RootLayout({ children }) {
             children: children
         }, void 0, false, {
             fileName: "[project]/src/app/layout.tsx",
-            lineNumber: 23,
+            lineNumber: 24,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/app/layout.tsx",
-        lineNumber: 22,
+        lineNumber: 23,
         columnNumber: 5
     }, this);
 }

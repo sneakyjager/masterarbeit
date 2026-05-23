@@ -17,7 +17,7 @@ function UploadField({ label, description, onChange }) {
                 children: label
             }, void 0, false, {
                 fileName: "[project]/src/components/UploadField.tsx",
-                lineNumber: 10,
+                lineNumber: 11,
                 columnNumber: 7
             }, this),
             description && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -25,7 +25,7 @@ function UploadField({ label, description, onChange }) {
                 children: description
             }, void 0, false, {
                 fileName: "[project]/src/components/UploadField.tsx",
-                lineNumber: 11,
+                lineNumber: 12,
                 columnNumber: 23
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -35,13 +35,13 @@ function UploadField({ label, description, onChange }) {
                 className: "w-full rounded-2xl border border-white/10 bg-ink/70 px-4 py-3 text-sm text-white file:text-xs file:font-semibold"
             }, void 0, false, {
                 fileName: "[project]/src/components/UploadField.tsx",
-                lineNumber: 12,
+                lineNumber: 13,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/UploadField.tsx",
-        lineNumber: 9,
+        lineNumber: 10,
         columnNumber: 5
     }, this);
 }
@@ -70,7 +70,7 @@ function SelectField({ label, value, options, onChange }) {
                 children: label
             }, void 0, false, {
                 fileName: "[project]/src/components/SelectField.tsx",
-                lineNumber: 16,
+                lineNumber: 17,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -83,18 +83,18 @@ function SelectField({ label, value, options, onChange }) {
                         children: option.label
                     }, option.value, false, {
                         fileName: "[project]/src/components/SelectField.tsx",
-                        lineNumber: 23,
+                        lineNumber: 24,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/src/components/SelectField.tsx",
-                lineNumber: 17,
+                lineNumber: 18,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/SelectField.tsx",
-        lineNumber: 15,
+        lineNumber: 16,
         columnNumber: 5
     }, this);
 }
@@ -126,7 +126,7 @@ function GeneratedPreview({ imageUrl, isLoading, jobId, status }) {
                         children: "Preview"
                     }, void 0, false, {
                         fileName: "[project]/src/components/GeneratedPreview.tsx",
-                        lineNumber: 17,
+                        lineNumber: 18,
                         columnNumber: 9
                     }, this),
                     status && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -134,13 +134,13 @@ function GeneratedPreview({ imageUrl, isLoading, jobId, status }) {
                         children: status
                     }, void 0, false, {
                         fileName: "[project]/src/components/GeneratedPreview.tsx",
-                        lineNumber: 18,
+                        lineNumber: 19,
                         columnNumber: 20
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/GeneratedPreview.tsx",
-                lineNumber: 16,
+                lineNumber: 17,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -153,20 +153,20 @@ function GeneratedPreview({ imageUrl, isLoading, jobId, status }) {
                                 className: "h-4 w-4 animate-spin rounded-full border-2 border-accent border-t-transparent"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/GeneratedPreview.tsx",
-                                lineNumber: 24,
+                                lineNumber: 25,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 children: "Generating preview..."
                             }, void 0, false, {
                                 fileName: "[project]/src/components/GeneratedPreview.tsx",
-                                lineNumber: 25,
+                                lineNumber: 26,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/GeneratedPreview.tsx",
-                        lineNumber: 23,
+                        lineNumber: 24,
                         columnNumber: 11
                     }, this),
                     !isLoading && imageUrl && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -175,7 +175,7 @@ function GeneratedPreview({ imageUrl, isLoading, jobId, status }) {
                         className: "h-full w-full rounded-2xl object-cover"
                     }, void 0, false, {
                         fileName: "[project]/src/components/GeneratedPreview.tsx",
-                        lineNumber: 30,
+                        lineNumber: 31,
                         columnNumber: 11
                     }, this),
                     !isLoading && !imageUrl && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -183,13 +183,13 @@ function GeneratedPreview({ imageUrl, isLoading, jobId, status }) {
                         children: "Your generated output will appear here."
                     }, void 0, false, {
                         fileName: "[project]/src/components/GeneratedPreview.tsx",
-                        lineNumber: 34,
+                        lineNumber: 35,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/GeneratedPreview.tsx",
-                lineNumber: 21,
+                lineNumber: 22,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -199,26 +199,26 @@ function GeneratedPreview({ imageUrl, isLoading, jobId, status }) {
                         children: "Job ID"
                     }, void 0, false, {
                         fileName: "[project]/src/components/GeneratedPreview.tsx",
-                        lineNumber: 39,
+                        lineNumber: 40,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                         children: jobId ?? "-"
                     }, void 0, false, {
                         fileName: "[project]/src/components/GeneratedPreview.tsx",
-                        lineNumber: 40,
+                        lineNumber: 41,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/GeneratedPreview.tsx",
-                lineNumber: 38,
+                lineNumber: 39,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/GeneratedPreview.tsx",
-        lineNumber: 15,
+        lineNumber: 16,
         columnNumber: 5
     }, this);
 }
@@ -232,12 +232,16 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 "[project]/src/services/api.ts [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+// API helpers for the local backend.
 __turbopack_context__.s([
     "generateImage",
-    ()=>generateImage
+    ()=>generateImage,
+    "getJobStatus",
+    ()=>getJobStatus
 ]);
 const API_BASE_URL = "http://localhost:8000";
 async function generateImage(payload) {
+    // Use multipart form-data to match the FastAPI endpoint.
     const formData = new FormData();
     formData.append("person_image", payload.personImage);
     formData.append("clothing_image", payload.clothingImage);
@@ -249,6 +253,13 @@ async function generateImage(payload) {
     });
     if (!response.ok) {
         throw new Error("Generation failed. Please try again.");
+    }
+    return response.json();
+}
+async function getJobStatus(jobId) {
+    const response = await fetch(`${API_BASE_URL}/job/${jobId}`);
+    if (!response.ok) {
+        throw new Error("Failed to fetch job status.");
     }
     return response.json();
 }
@@ -264,6 +275,7 @@ __turbopack_context__.s([
     ()=>HomePage
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+// Main UI for uploading assets and calling the mock generation endpoint.
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$UploadField$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/UploadField.tsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$SelectField$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/SelectField.tsx [app-client] (ecmascript)");
@@ -303,6 +315,7 @@ function HomePage() {
     const [style, setStyle] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(STYLE_OPTIONS[0]?.value ?? "editorial");
     const [isLoading, setIsLoading] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     const [result, setResult] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
+    const [jobStatus, setJobStatus] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
     const [error, setError] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
     const canGenerate = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useMemo"])({
         "HomePage.useMemo[canGenerate]": ()=>{
@@ -314,6 +327,7 @@ function HomePage() {
         prompt
     ]);
     const handleGenerate = async ()=>{
+        // Guard against missing files before hitting the API.
         if (!personImage || !clothingImage) {
             setError("Please upload both images.");
             return;
@@ -321,6 +335,7 @@ function HomePage() {
         setIsLoading(true);
         setError(null);
         try {
+            // Send multipart payload to the FastAPI backend.
             const response = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$services$2f$api$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["generateImage"])({
                 personImage,
                 clothingImage,
@@ -328,12 +343,56 @@ function HomePage() {
                 style
             });
             setResult(response);
+            setJobStatus({
+                job_id: response.job_id,
+                status: response.status,
+                job_type: "generate",
+                image_url: response.image_url
+            });
         } catch (err) {
             setError(err instanceof Error ? err.message : "Something went wrong.");
         } finally{
             setIsLoading(false);
         }
     };
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
+        "HomePage.useEffect": ()=>{
+            if (!result?.job_id) {
+                return;
+            }
+            let isActive = true;
+            const pollStatus = {
+                "HomePage.useEffect.pollStatus": async ()=>{
+                    try {
+                        const status = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$services$2f$api$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getJobStatus"])(result.job_id);
+                        if (!isActive) {
+                            return;
+                        }
+                        setJobStatus(status);
+                        if (status.status === "completed" || status.status === "failed" || status.status === "not_found") {
+                            isActive = false;
+                        }
+                    } catch  {
+                        if (isActive) {
+                            setJobStatus({
+                                "HomePage.useEffect.pollStatus": (prev)=>prev ?? null
+                            }["HomePage.useEffect.pollStatus"]);
+                        }
+                    }
+                }
+            }["HomePage.useEffect.pollStatus"];
+            const intervalId = setInterval(pollStatus, 2000);
+            pollStatus();
+            return ({
+                "HomePage.useEffect": ()=>{
+                    isActive = false;
+                    clearInterval(intervalId);
+                }
+            })["HomePage.useEffect"];
+        }
+    }["HomePage.useEffect"], [
+        result?.job_id
+    ]);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
         className: "min-h-screen px-6 py-10",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -347,7 +406,7 @@ function HomePage() {
                             children: "Fashion AI Studio"
                         }, void 0, false, {
                             fileName: "[project]/src/app/page.tsx",
-                            lineNumber: 58,
+                            lineNumber: 101,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -355,7 +414,7 @@ function HomePage() {
                             children: "Local-first AI fashion generation pipeline"
                         }, void 0, false, {
                             fileName: "[project]/src/app/page.tsx",
-                            lineNumber: 59,
+                            lineNumber: 102,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -363,13 +422,13 @@ function HomePage() {
                             children: "Upload a person and a garment, describe the look, and preview a realistic mock output while the real pipelines are wired in."
                         }, void 0, false, {
                             fileName: "[project]/src/app/page.tsx",
-                            lineNumber: 62,
+                            lineNumber: 105,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/page.tsx",
-                    lineNumber: 57,
+                    lineNumber: 100,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -386,7 +445,7 @@ function HomePage() {
                                         onChange: setPersonImage
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/page.tsx",
-                                        lineNumber: 71,
+                                        lineNumber: 114,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$UploadField$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -395,7 +454,7 @@ function HomePage() {
                                         onChange: setClothingImage
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/page.tsx",
-                                        lineNumber: 76,
+                                        lineNumber: 119,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -406,7 +465,7 @@ function HomePage() {
                                                 children: "Prompt"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/page.tsx",
-                                                lineNumber: 83,
+                                                lineNumber: 126,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
@@ -416,13 +475,13 @@ function HomePage() {
                                                 className: "h-24 w-full rounded-2xl border border-white/10 bg-ink/70 px-4 py-3 text-sm text-white outline-none transition focus:border-accent/70"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/page.tsx",
-                                                lineNumber: 84,
+                                                lineNumber: 127,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/page.tsx",
-                                        lineNumber: 82,
+                                        lineNumber: 125,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$SelectField$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -432,7 +491,7 @@ function HomePage() {
                                         onChange: setStyle
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/page.tsx",
-                                        lineNumber: 92,
+                                        lineNumber: 135,
                                         columnNumber: 15
                                     }, this),
                                     error && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -440,7 +499,7 @@ function HomePage() {
                                         children: error
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/page.tsx",
-                                        lineNumber: 99,
+                                        lineNumber: 142,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -451,49 +510,49 @@ function HomePage() {
                                         children: isLoading ? "Generating..." : "Generate look"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/page.tsx",
-                                        lineNumber: 101,
+                                        lineNumber: 144,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/page.tsx",
-                                lineNumber: 70,
+                                lineNumber: 113,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/page.tsx",
-                            lineNumber: 69,
+                            lineNumber: 112,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$GeneratedPreview$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                             imageUrl: result ? `http://localhost:8000${result.image_url}` : undefined,
                             isLoading: isLoading,
                             jobId: result?.job_id,
-                            status: result?.status
+                            status: jobStatus?.status ?? result?.status
                         }, void 0, false, {
                             fileName: "[project]/src/app/page.tsx",
-                            lineNumber: 112,
+                            lineNumber: 155,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/page.tsx",
-                    lineNumber: 68,
+                    lineNumber: 111,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/app/page.tsx",
-            lineNumber: 56,
+            lineNumber: 99,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/app/page.tsx",
-        lineNumber: 55,
+        lineNumber: 98,
         columnNumber: 5
     }, this);
 }
-_s(HomePage, "270xJentdYzPTBHQkXnT8QS7y/4=");
+_s(HomePage, "drtG/Dka4EK7TfG/I4PZF8Hz8yM=");
 _c = HomePage;
 var _c;
 __turbopack_context__.k.register(_c, "HomePage");

@@ -1,3 +1,4 @@
+// Global layout configuration and typography.
 import type { Metadata } from "next";
 import { Space_Grotesk } from "next/font/google";
 import "./globals.css";
